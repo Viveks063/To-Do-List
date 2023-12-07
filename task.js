@@ -20,4 +20,14 @@ function addTask() {
         
         taskInput.value=" ";
         }
-
+        function dislayDate()
+        {
+            const dateElement=document.getElementById("date");
+            const options={weekday:"long",year:"numeric",month:"long",day:"numeric"};
+            const today=new Date();
+            const dateString=today.toLocaleDateString(undefined,options);
+            dateElement.textContent=dateString;
+        }
+        dislayDate();
+    
+        setInterval(dislayDate,1000);
