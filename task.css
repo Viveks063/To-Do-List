@@ -1,0 +1,85 @@
+head
+{
+    
+    padding: 10px;
+    font-size: larger;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+  color:beige;
+  font-size: 50px;
+  font-weight: bolder;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("C:/Users/vivek/OneDrive/projects december/TO DO list/taskim.jpg");
+    background-size: cover;
+    padding-left: 100px;
+    font-size: larger;
+    padding: 20px;
+  
+    
+padding-left: 300px;
+}
+
+  
+  button {
+    margin-top: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-image: linear-gradient(to bottom right, #007bff, #00bfff);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  input {
+    width: 600px; 
+    height: 40px; 
+    font-size: 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: brown;
+    color: black;
+    border-color: aqua;
+    
+  }
+
+
+  button:hover
+  {
+    background-color: blue;
+    color: aqua;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom right, #0056b3, #0088ff);
+}
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(55, 9, 99);
+    padding-right: 400px;
+    padding-right: 100px;
+}
+
+/* Style for the checkbox */
+input[type="checkbox"] {
+    margin-right: 1 px;
+    border-radius: 10px;
+}
+
